@@ -9,15 +9,6 @@
 
 ---
 
-## GitHub Stats
-
-![GitHub Contribution](https://ghchart.rshah.org/JihunPyo)
-
-![Jihun's GitHub stats](https://github-readme-stats.vercel.app/api?username=JihunPyo&show_icons=true&theme=tokyonight)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=JihunPyo&layout=compact&theme=tokyonight)
-
----
-
 ## Tech Stack
 
 ### Strong
