@@ -1,106 +1,106 @@
-<div align="center">
-
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:0F766E&height=210&section=header&text=Jihun%20Pyo&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=AI%20Engineer%20%7C%20LLM%20%26%20RAG%20%7C%20Computer%20Vision&descAlignY=72&descSize=18)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,50:2563EB,100:14B8A6&height=200&section=header&text=Jihun%20Pyo&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=AI%20Engineer%20%7C%20LLM%20%26%20RAG%20%7C%20Computer%20Vision&descAlignY=70&descSize=18)
 
 ### Research ideas into reliable AI systems
 
-LLM/RAG 효율화 연구부터 Computer Vision 모델, 사용자에게 전달되는 AI 서비스까지 구현하는 AI Engineer 표지훈입니다.
+> LLM/RAG 효율화 연구부터 Computer Vision 모델, 사용자에게 전달되는 AI 서비스까지 구현하는 AI Engineer 표지훈입니다.
 
-[![GitHub](https://img.shields.io/badge/GitHub-JihunPyo-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/JihunPyo)
-[![Email](https://img.shields.io/badge/Email-pyojihun80%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:pyojihun80@gmail.com)
-![Profile Views](https://komarev.com/ghpvc/?username=JihunPyo&style=flat-square&color=1D4ED8)
+<a href="https://github.com/JihunPyo" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white"/></a>
+<img src="https://komarev.com/ghpvc/?username=JihunPyo&style=flat-square&color=2563EB" alt="profile views"/>
 
-</div>
-
-## About Me
-
-- 경희대학교 소프트웨어융합학과 데이터사이언스 트랙에 재학 중이며, GPA는 **4.06/4.5**이다.
-- 경희대학교 KDST 학부연구생으로 **hidden state 기반 동적 RAG 시점 결정**을 연구하고 있다.
-- 모델 실험에 머무르지 않고 데이터 처리, API, 프론트엔드와 배포까지 연결해 **동작하는 AI 시스템**을 만드는 데 집중한다.
-- 2026 ICPR Low Resolution License Plate Recognition Competition 학부생 팀을 이끌고 있다.
-- 경희대학교 데이터분석·AI 중앙동아리 **KHUDA 10기 회장**으로 70명 규모의 학회를 운영하고 있다.
-
-## Featured AI Projects
-
-### 1. [RAMO](https://github.com/JihunPyo/ramo) — LLM 대화 흐름 시각화 및 AI 활용 리포트
-
-> Team Leader · Full-stack Developer · Presenter | 2026.06 - Present
-
-- 꼬리질문으로 복잡해지는 LLM 대화를 브랜치로 분리하고, 대화 간 관계를 그래프로 시각화하는 서비스를 개발했다.
-- 대화 컨텍스트를 브랜치 단위로 관리하고 사용자별 AI 활용 리포트를 생성하는 흐름을 설계했다.
-- 예시 시나리오 기반 시뮬레이션에서 기존 방식 대비 **최대 17.1%의 토큰 절감 가능성**을 확인했다.
-- React·Vite 프론트엔드와 FastAPI·PostgreSQL 백엔드를 연동하고 Vercel·Railway에 배포했다.
-- **2026 Kyunghee Valley Program 대상**, **KHUDA 제1회 정기학술제 최우수상**을 수상했다.
-
-[Service](https://ramo-pi.vercel.app) · [Frontend](https://github.com/JihunPyo/ramo) · [Backend](https://github.com/uiuuymin/ramo) · [API Docs](https://chatbotbranchproject-production.up.railway.app/docs)
-
-### 2. [Handwriting2Ink](https://github.com/JihunPyo/Handwriting2Ink) — 손글씨 이미지의 편집 가능한 획 복원
-
-> Team Leader · Core Algorithm Developer · Presenter | 2025.03 - 2025.06
-
-- 손글씨 이미지를 Goodnotes에서 다시 편집할 수 있는 ink stroke 좌표열로 변환하는 규칙 기반 알고리즘을 개발했다.
-- PaddleOCR로 레이아웃을 분리하고, Zhang-Suen thinning과 8-neighbor graph를 이용해 skeleton 기반 stroke를 추출했다.
-- FastAPI 비동기 job orchestration, macOS GUI worker, SwiftUI iPad 클라이언트를 연결해 end-to-end 서비스를 구현했다.
-- 연구 결과를 KCC 2026 학부생 논문으로 발표해 **한국정보과학회 우수상**을 수상했다.
-
-[Repository](https://github.com/JihunPyo/Handwriting2Ink) · [Demo](https://youtube.com/shorts/Ik74j1NbrQU) · [Paper](https://www.dbpia.co.kr/pdf/pdfView.do?nodeId=NODE12929802&width=1920)
-
-### 3. [Disabled Parking Guard](https://github.com/JihunPyo/Disabled-Parking-Guard) — 비정상 보행 분류 기반 주차구역 부정이용 탐지
-
-> Data Preprocessing · Model Architecture · Presenter | 2025.12
-
-- YOLO 객체 탐지, BoT-SORT 추적, MediaPipe 3D pose estimation과 LSTM 분류를 하나의 영상 추론 파이프라인으로 구성했다.
-- 관절 선택, translation 제거, scale normalization과 sequence length 정규화를 적용해 pose sequence를 모델 입력으로 변환했다.
-- 프로젝트 평가 데이터에서 정상·비정상 보행 분류 **약 97% 정확도**를 달성했다.
-- 얼굴이나 번호판 대신 보행 패턴을 사용하는 비식별적 판단 보조 방식을 제안했다.
-
-### 4. [ICPR 2026 LRLPR Competition](https://github.com/JihunPyo/2026ICPR-LRLPR-Competition) — 저해상도 번호판 인식
-
-> Undergraduate Team Lead | 2026 - Present
-
-- multi-frame 저해상도 번호판 인식 성능 향상을 위한 복원·인식 방법론을 실험하고 있다.
-- 실험 조건과 결과를 재현 가능한 형태로 관리하며 팀의 모델 개발 방향을 조율하고 있다.
-
-## Additional ML Work
-
-- **실시간 날씨 기반 비행기 연착 확률 예측**: 시계열 데이터 분석, boosting tree 모델과 실시간 날씨 API를 결합했다.
+---
 
 ## Tech Stack
 
-### AI / Machine Learning
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![PaddleOCR](https://img.shields.io/badge/PaddleOCR-0062B0?style=flat-square)
-![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square)
-![MediaPipe](https://img.shields.io/badge/MediaPipe-0097A7?style=flat-square)
-
-### Data / Scientific Computing
-
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![SciPy](https://img.shields.io/badge/SciPy-8CAAE6?style=flat-square&logo=scipy&logoColor=white)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=flat-square)
-
-### Engineering
+### Strong
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=flat-square&logo=swift&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 
-### Workflow
+### Exploring
+
+![Computer Vision](https://img.shields.io/badge/Computer%20Vision-0F766E?style=flat-square)
+![OCR](https://img.shields.io/badge/OCR-2563EB?style=flat-square)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-F59E0B?style=flat-square)
+![Deep Learning](https://img.shields.io/badge/Deep%20Learning-DC2626?style=flat-square)
+![LLM](https://img.shields.io/badge/LLM-1D4ED8?style=flat-square)
+![RAG](https://img.shields.io/badge/RAG-0F766E?style=flat-square)
+![ML Systems](https://img.shields.io/badge/ML%20Systems-7C3AED?style=flat-square)
+
+### Tools
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
 ![Conda](https://img.shields.io/badge/Conda-44A833?style=flat-square&logo=anaconda&logoColor=white)
 ![Codex](https://img.shields.io/badge/Codex-111111?style=flat-square&logo=openai&logoColor=white)
 ![Claude](https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
+
+---
+
+## Areas of Interest
+
+| Area | Keywords | Focus |
+|---|---|---|
+| LLM & RAG | Dynamic Retrieval, Hidden State, Context Management | LLM 내부 상태를 활용한 retrieval timing과 추론 효율화 연구 |
+| Computer Vision | Object Detection, Tracking, Pose Estimation | 영상 기반 문제를 탐지, 추적, 추론 파이프라인으로 해결 |
+| OCR & Document AI | PaddleOCR, Skeletonization, Stroke Extraction | 문서 이미지의 구조와 획 정보를 분석하고 재구성 |
+| Machine Learning | Classification, Inference Pipeline, Experiment Logging | 모델 실험을 재현 가능한 코드와 기록으로 관리 |
+| AI System Engineering | FastAPI, React, Deployment | 모델을 API·UI·배포 환경까지 연결해 실제 서비스로 구현 |
+| Algorithm | BOJ, C++, Problem Solving | 문제 해결력을 높이기 위한 알고리즘 풀이 누적 |
+
+---
+
+## Featured Projects
+
+| Year | Project | Topic | Description | Link |
+|---|---|---|---|---|
+| 2026 | RAMO | LLM, Context Management, Full Stack | LLM 대화를 브랜치로 분리하고 관계를 그래프로 시각화해 컨텍스트를 관리하는 AI 채팅 서비스 | [GitHub](https://github.com/JihunPyo/ramo) · [Service](https://ramo-pi.vercel.app) |
+| 2025 | Handwriting2Ink | OCR, Document Image Processing | 손글씨 이미지에서 획 경로를 복원해 Goodnotes에서 편집 가능한 ink stroke로 변환하는 서비스 | [GitHub](https://github.com/JihunPyo/Handwriting2Ink) |
+| 2025 | DisabledParkingGuard | Computer Vision, Gait Analysis | CCTV 영상에서 하차 보행자의 보행 특성을 분석해 장애인 전용 주차구역 부정 이용 가능성을 추정하는 프로토타입 | [GitHub](https://github.com/JihunPyo/Disabled-Parking-Guard) |
+| 2026 | ICPR LRLPR Competition | Low Resolution License Plate Recognition | Multi-frame 저해상도 번호판 인식 성능 향상을 위한 방법론 실험 저장소 | [GitHub](https://github.com/JihunPyo/2026ICPR-LRLPR-Competition) |
+| 2026 | Practice for CodingTest | Algorithm | 백준 문제풀이 코드를 정리하는 C++ 알고리즘 학습 저장소 | [GitHub](https://github.com/JihunPyo/Practice-for-CodingTest) |
+| 2026 | khuda-9th-ml | ML Study, GitHub Hands-on | KHUDA 9기 ML 세션 및 GitHub 사용법 실습 기록 | [GitHub](https://github.com/JihunPyo/khuda-9th-ml) |
+
+---
+
+## Project Notes
+
+### RAMO
+
+- LLM 대화의 꼬리질문을 브랜치로 분리하고 대화 관계를 그래프로 시각화합니다.
+- 브랜치 단위 컨텍스트 관리와 사용자별 AI 활용 리포트 생성 흐름을 설계했습니다.
+- 예시 시나리오 기반 시뮬레이션에서 기존 방식 대비 최대 17.1%의 토큰 절감 가능성을 확인했습니다.
+- React·Vite 프론트엔드와 FastAPI·PostgreSQL 백엔드를 연동해 실제 서비스로 배포했습니다.
+
+### Handwriting2Ink
+
+- Zhang-Suen skeletonization과 stroke extraction을 이용해 문서 이미지의 중심선을 분석합니다.
+- PaddleOCR 기반 text/shape crop 분리를 통해 OCR layout pilot을 실험합니다.
+- crop별 stroke를 원본 좌표계에 재배치하는 방식으로 손글씨 재구성 가능성을 검증합니다.
+
+### DisabledParkingGuard
+
+- ROI 지정, YOLO 기반 객체 탐지, BoT-SORT 기반 추적, MediaPipe Pose 기반 3D pose 추출 흐름을 포함합니다.
+- LSTM 기반 보행 분류 inference를 통해 행동 정보 기반 판단 가능성을 실험합니다.
+- 얼굴, 신원, 번호판보다 보행 패턴 중심의 비식별적 판단 기준을 다룹니다.
+
+---
+
+## Learning Log
+
+| Track | Current Focus |
+|---|---|
+| LLM & RAG | Hidden state 기반 dynamic retrieval timing과 context 효율화 |
+| Computer Vision | Detection, Tracking, Pose Estimation pipeline 구성 |
+| OCR | 문서 이미지 전처리, OCR crop, skeleton 기반 stroke 분석 |
+| ML Engineering | 실험 코드 구조화, 모델 추론 파이프라인과 AI 서비스 구현 |
+| Algorithm | C++ 기반 문제풀이와 구현 역량 강화 |
+
+---
 
 ## Awards
 
@@ -111,16 +111,42 @@ LLM/RAG 효율화 연구부터 Computer Vision 모델, 사용자에게 전달되
 | 2026.07 | **최우수상(1위)** — KHUDA 제1회 정기학술제 |
 | 2025.12 | **최우수상(1위)** — KHUDA 9th 심화프로젝트 컨퍼런스 |
 
+---
+
 ## Current Focus
 
 - hidden state를 활용한 동적 RAG retrieval timing과 LLM inference 효율화
 - AI 모델을 API·UI·배포 환경까지 연결하는 ML/AI system engineering
 - OCR, document AI와 multi-frame low-resolution vision
 
-<div align="center">
+---
 
-AI 연구와 실제 사용자에게 전달되는 제품 사이의 간극을 줄이는 엔지니어를 지향한다.
+## Let's Connect
 
-![footer](https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,50:1D4ED8,100:0F172A&height=120&section=footer)
+> LLM/RAG, 컴퓨터 비전, OCR과 실제 사용자에게 전달되는 AI 시스템 개발에 관심이 있습니다.
 
-</div>
+<a href="https://github.com/JihunPyo" target="_blank"><img src="https://img.shields.io/badge/GitHub-JihunPyo-181717?style=flat-square&logo=github&logoColor=white"/></a>
+
+---
+
+## English Version
+
+### About Me
+
+I am an AI engineer who turns research ideas in LLM/RAG and computer vision into reliable, user-facing systems.
+
+### Current Focus
+
+- Dynamic RAG retrieval timing using hidden states and efficient LLM inference
+- Computer vision pipelines with detection, tracking, and pose estimation
+- OCR and document image analysis with skeleton-based stroke extraction
+- End-to-end AI systems spanning model pipelines, APIs, user interfaces, and deployment
+
+### Featured Work
+
+- **RAMO**: branch-based LLM conversation management, graph visualization, and AI usage reports
+- **Handwriting2Ink**: document image preprocessing, skeletonization, stroke extraction, and OCR layout experiments
+- **DisabledParkingGuard**: CCTV-based gait analysis prototype for accessible parking misuse detection
+- **ICPR LRLPR Competition**: experiments for multi-frame low-resolution license plate recognition
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:14B8A6,50:2563EB,100:1E3A8A&height=120&section=footer)
