@@ -59,11 +59,8 @@
 | Year | Project | Topic | Description | Link |
 |---|---|---|---|---|
 | 2026 | RAMO | LLM, Context Management, Full Stack | LLM 대화를 브랜치로 분리하고 관계를 그래프로 시각화해 컨텍스트를 관리하는 AI 채팅 서비스 | [GitHub](https://github.com/JihunPyo/ramo) · [Service](https://ramo-pi.vercel.app) |
-| 2025 | Handwriting2Ink | OCR, Document Image Processing | 손글씨 이미지에서 획 경로를 복원해 Goodnotes에서 편집 가능한 ink stroke로 변환하는 서비스 | [GitHub](https://github.com/JihunPyo/Handwriting2Ink) |
+| 2026 | Handwriting2Ink | OCR, Document Image Processing | 손글씨 이미지에서 획 경로를 복원해 Goodnotes에서 편집 가능한 ink stroke로 변환하는 서비스 | [GitHub](https://github.com/JihunPyo/Handwriting2Ink) |
 | 2025 | DisabledParkingGuard | Computer Vision, Gait Analysis | CCTV 영상에서 하차 보행자의 보행 특성을 분석해 장애인 전용 주차구역 부정 이용 가능성을 추정하는 프로토타입 | [GitHub](https://github.com/JihunPyo/Disabled-Parking-Guard) |
-| 2026 | ICPR LRLPR Competition | Low Resolution License Plate Recognition | Multi-frame 저해상도 번호판 인식 성능 향상을 위한 방법론 실험 저장소 | [GitHub](https://github.com/JihunPyo/2026ICPR-LRLPR-Competition) |
-| 2026 | Practice for CodingTest | Algorithm | 백준 문제풀이 코드를 정리하는 C++ 알고리즘 학습 저장소 | [GitHub](https://github.com/JihunPyo/Practice-for-CodingTest) |
-| 2026 | khuda-9th-ml | ML Study, GitHub Hands-on | KHUDA 9기 ML 세션 및 GitHub 사용법 실습 기록 | [GitHub](https://github.com/JihunPyo/khuda-9th-ml) |
 
 ---
 
