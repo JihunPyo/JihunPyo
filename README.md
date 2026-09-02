@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:1E3A8A,50:2563EB,100:14B8A6&height=200&section=header&text=Jihun%20Pyo&fontSize=50&fontColor=ffffff&animation=fadeIn&desc=AI%20Engineer%20%7C%20LLM%20%26%20RAG%20%7C%20Computer%20Vision&descAlignY=70&descSize=18)
+![header](./assets/header.svg)
 
 ### Research ideas into reliable AI systems
 

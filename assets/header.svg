@@ -1,0 +1,16 @@
+<svg width="854" height="200" viewBox="0 0 854 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title description">
+  <title id="title">Jihun Pyo</title>
+  <desc id="description">AI Engineer, LLM and RAG, Computer Vision</desc>
+  <defs>
+    <linearGradient id="header-gradient" x1="0" y1="0" x2="854" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1E3A8A"/>
+      <stop offset="0.5" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+  <rect width="854" height="200" fill="url(#header-gradient)"/>
+  <path d="M0 147C123 174 212 179 324 154C454 125 541 139 640 160C726 178 790 171 854 151V200H0V147Z" fill="white" fill-opacity="0.28"/>
+  <path d="M0 166C126 190 218 181 333 162C459 141 552 157 648 174C727 188 794 183 854 166V200H0V166Z" fill="white" fill-opacity="0.5"/>
+  <text x="427" y="76" text-anchor="middle" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="700">Jihun Pyo</text>
+  <text x="427" y="112" text-anchor="middle" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="500">AI Engineer | LLM &amp; RAG | Computer Vision</text>
+</svg>
