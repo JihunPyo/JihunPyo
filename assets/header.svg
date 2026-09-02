@@ -9,8 +9,28 @@
     </linearGradient>
   </defs>
   <rect width="854" height="200" fill="url(#header-gradient)"/>
-  <path d="M0 147C123 174 212 179 324 154C454 125 541 139 640 160C726 178 790 171 854 151V200H0V147Z" fill="white" fill-opacity="0.28"/>
-  <path d="M0 166C126 190 218 181 333 162C459 141 552 157 648 174C727 188 794 183 854 166V200H0V166Z" fill="white" fill-opacity="0.5"/>
+  <path d="M0 147C123 174 212 179 324 154C454 125 541 139 640 160C726 178 790 171 854 151V200H0V147Z" fill="white" fill-opacity="0.28">
+    <animate
+      attributeName="d"
+      dur="9s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keyTimes="0;0.33;0.66;1"
+      keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+      values="M0 147C123 174 212 179 324 154C454 125 541 139 640 160C726 178 790 171 854 151V200H0V147Z;M0 158C115 130 230 143 340 168C455 194 558 179 651 150C735 124 797 135 854 153V200H0V158Z;M0 139C130 160 218 145 329 130C450 113 559 146 649 171C728 193 798 184 854 159V200H0V139Z;M0 147C123 174 212 179 324 154C454 125 541 139 640 160C726 178 790 171 854 151V200H0V147Z"
+    />
+  </path>
+  <path d="M0 166C126 190 218 181 333 162C459 141 552 157 648 174C727 188 794 183 854 166V200H0V166Z" fill="white" fill-opacity="0.5">
+    <animate
+      attributeName="d"
+      dur="12s"
+      repeatCount="indefinite"
+      calcMode="spline"
+      keyTimes="0;0.33;0.66;1"
+      keySplines="0.42 0 0.58 1;0.42 0 0.58 1;0.42 0 0.58 1"
+      values="M0 166C126 190 218 181 333 162C459 141 552 157 648 174C727 188 794 183 854 166V200H0V166Z;M0 176C121 156 226 158 337 181C454 205 553 188 650 169C734 152 800 155 854 171V200H0V176Z;M0 158C127 178 225 170 337 153C457 135 555 160 650 181C735 199 800 191 854 174V200H0V158Z;M0 166C126 190 218 181 333 162C459 141 552 157 648 174C727 188 794 183 854 166V200H0V166Z"
+    />
+  </path>
   <text x="427" y="76" text-anchor="middle" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="50" font-weight="700">Jihun Pyo</text>
   <text x="427" y="112" text-anchor="middle" fill="white" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="18" font-weight="500">AI Engineer | LLM &amp; RAG | Computer Vision</text>
 </svg>
